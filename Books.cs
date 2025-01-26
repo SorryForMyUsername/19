@@ -34,7 +34,7 @@ namespace _19_1
         /// <summary>
         /// Метод вывода информации о книге.
         /// </summary>
-        public void Print()
+        public void Info()
         {
             Console.WriteLine($"Название книги: {name}\nАвтор книги: " +
                 $"{author}\nГод выпуска: {year}\nОбъём в листах: {count}");
